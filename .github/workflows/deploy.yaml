@@ -33,4 +33,4 @@ jobs:
       
       # Deploying Application on surge platform
       - name: Run Surge
-        run: surge ./ http://1st-lecture.surge.sh/ --token${{secret.SURGE_TOKEN}}
+        run: surge ./ http://1st-lecture.surge.sh/ --token${{secrets.SURGE_TOKEN}}
